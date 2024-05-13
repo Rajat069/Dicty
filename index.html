@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dicty</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img
+          width="60"
+          height="60"
+          src="https://img.icons8.com/clouds/100/glossary.png"
+          alt="glossary"
+        />
+      </div>
+      <ul>
+        <li><a href="https://dictionaryapi.dev/">API</a></li>
+        <li><a href="https://github.com/Rajat069">Github</a></li>
+      </ul>
+    </nav>
+    <div class="wrapper">
+      <header>
+        <i class="fa-solid fa-spell-check"></i> English Dictionary
+      </header>
+      <div class="search">
+        <input
+          type="text"
+          placeholder="Search a word"
+          required
+          spellcheck="false"
+        />
+        <i class="fas fa-search"></i>
+        <span class="material-icons">close</span>
+      </div>
+      <p class="info-text">
+        Type any existing word and press enter to get meaning, example,
+        synonyms, etc.
+      </p>
+      <ul>
+        <li class="word">
+          <div class="details">
+            <p>__</p>
+            <span>_ _</span>
+          </div>
+          <i class="fas fa-volume-up"></i>
+        </li>
+        <div class="content">
+          <li class="meaning">
+            <div class="details">
+              <p>Meaning</p>
+              <span>___</span>
+              <span id="m2">__</span>
+            </div>
+          </li>
+          <li class="example">
+            <div class="details">
+              <p>Example</p>
+              <span>___</span>
+            </div>
+          </li>
+          <li class="synonyms">
+            <div class="details">
+              <p>Synonyms</p>
+              <div class="list"></div>
+            </div>
+          </li>
+        </div>
+      </ul>
+    </div>
+    <script src="main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/55c8767a80.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
