@@ -8,6 +8,7 @@ let audio;
 
 async function data(result, word){
     if(result.title){
+        wrapper.style.border = "2px red solid";
         infoText.innerHTML = `Can't find the meaning of <span>"${word}"</span>. Please, try to search for another word.`;
     }else{
         wrapper.style.border = "2px #f4c24e solid";
