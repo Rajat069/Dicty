@@ -35,6 +35,10 @@ This is a simple dictionary app that allows users to search for word meanings, e
 
 Contributions are welcome! If you have any suggestions or improvements, please create a pull request.
 
+## Open Issues
+
+The audio button is not working due to CDN issues from the OpenDictionary API.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
