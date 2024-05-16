@@ -236,7 +236,10 @@ ul .content::-webkit-scrollbar {
     position: fixed;
     width: 30vw;
     left: 65vw;
-    top: 90vh;
+    top: 86vh;
+  }
+  .wrapper {
+    margin-bottom: 80px;
   }
 }
 @media (min-width: 900px) and (max-width: 1100px) {
