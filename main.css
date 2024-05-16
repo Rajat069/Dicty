@@ -189,12 +189,32 @@ ul .content::-webkit-scrollbar {
   margin-right: 5px;
   text-decoration: underline;
 }
+#connect {
+  width: 15vw;
+  background-color: #f4c24e;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #735204;
+  position: relative;
+  top: 130px;
+  left: 40vw;
+}
+#connect:hover {
+  transform: scale(1.05);
+  background-color: #e1da58;
+  transition: 0.2s ease-in-out;
+}
+#connect a {
+  text-decoration: none;
+  color: #000000;
+}
 @media (max-width: 550px) {
   .wrapper {
     width: 40vh;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .wrapper header {
     font-size: 18px;
   }
@@ -211,6 +231,12 @@ ul .content::-webkit-scrollbar {
   }
   p {
     font-size: 15px !important;
+  }
+  #connect {
+    position: fixed;
+    width: 30vw;
+    left: 65vw;
+    top: 90vh;
   }
 }
 @media (min-width: 900px) and (max-width: 1100px) {
